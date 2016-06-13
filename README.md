@@ -1,14 +1,15 @@
-# put-s3-amazon
-Simple node script for upload files to amazon
+# put-pull-s3-amazon
+Simple node script for upload and download files to amazon
 
-- Clone this repo: git clone https://github.com/picharras/put-s3-amazon.git
+- Clone this repo: git clone https://github.com/picharras/put-pull-s3-amazon.git
 
-- cd put-s3-amazon
+- cd put-pull-s3-amazon
 
 - Edit 'localFolder', 's3Folder' and 'Bucket' in putS3.js file
+- Edit 'localFolder', and 'bucket' in pullS3.js file
 
 - npm install
 
-- node putS3.js
+- node putS3.js or node pullS3.js
 
 - Enjoy!
