@@ -7,25 +7,25 @@ Simple node script for upload and download files to amazon
   ```
 
 - Go to project folder
-```
-  cd put-pull-s3-amazon
-```
+  ```
+    cd put-pull-s3-amazon
+  ```
 
 - Edit 'localFolder', 's3Folder' and 'Bucket' in putS3.js file
 - Edit 'localFolder', 'bucket' and 'params.Prefix' in pullS3.js file
 
 - Install dependences:
-```
-  npm install
-```
+  ```
+    npm install
+  ```
 
 - Run script:
-```
-  node putS3.js
-```
+  ```
+    node putS3.js
+  ```
   or
-```
-  node pullS3.js
-```
+  ```
+    node pullS3.js
+  ```
 
 - Enjoy!
