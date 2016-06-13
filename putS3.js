@@ -9,6 +9,7 @@ var AWS = require('aws-sdk'),
     region: 'REGION'
  });
 
+// Set own paths
 var localFolder = __dirname + '/my_files',
   s3Folder = 'my_files_s3';
 
@@ -20,7 +21,7 @@ fs.readdir(localFolder, function(error, files) {
 
   async.each(files, function(file, done) {
     var obj = {
-      Bucket: 's3_bucket_fake',
+      Bucket: 's3_bucket_fake', //Set own bucket
       Key: s3Folder + '/' + file,
       Body: fs.createReadStream(localFolder + '/' + file)
     };
