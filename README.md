@@ -10,6 +10,6 @@ Simple node script for upload and download files to amazon
 
 - npm install
 
-- node putS3.js or node pullS3.js
+- Run ´´´node putS3.js´´´ or node pullS3.js
 
 - Enjoy!
