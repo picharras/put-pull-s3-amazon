@@ -1,7 +1,7 @@
 {
-  "name": "UploadS3",
+  "name": "putS3",
   "version": "1.0.0",
-  "description": "Upload files to s3",
+  "description": "Upload files to Amazon S3",
   "main": "putS3.js",
   "scripts": {
     "test": "test/test.js"
