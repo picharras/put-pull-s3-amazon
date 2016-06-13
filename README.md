@@ -1,7 +1,10 @@
 # put-pull-s3-amazon
 Simple node script for upload and download files to amazon
 
-- Clone this repo: git clone https://github.com/picharras/put-pull-s3-amazon.git
+- Clone this repo
+  ```
+    git clone https://github.com/picharras/put-pull-s3-amazon.git
+  ```
 
 - Go to project folder
 ```
