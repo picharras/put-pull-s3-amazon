@@ -1,0 +1,20 @@
+{
+  "name": "UploadS3",
+  "version": "1.0.0",
+  "description": "Upload files to s3",
+  "main": "putS3.js",
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "keywords": [
+    "amazon",
+    "s3",
+    "backup"
+  ],
+  "author": "Josue Camara <picharras@gmail.com>",
+  "license": "GPLv3",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "aws-sdk": "^2.3.19"
+  }
+}
